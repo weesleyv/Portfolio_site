@@ -1,10 +1,10 @@
 
 h1,h2,h3,h4,h5,p{
-  font-family: 'Merriweather', serif;
+  font-family: 'Raleway', sans-serif;
 }
 
   h5{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Raleway', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
@@ -64,7 +64,7 @@ a:hover{
 }
 
   .portfolio-me p{
-    font-size: 14px;
+    font-size: 1rem;
     color: #999;
   }
 
@@ -72,7 +72,7 @@ a:hover{
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 600;
     color: #555;
-    font-size: 13px;
+    font-size: 1rem;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;

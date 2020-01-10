@@ -1,0 +1,2 @@
+ portfolio site to showcase the projects i've built. The site will contain a landing page, an about page where i'll share contact info, and talk a little about myself, and a series of project pages to show off.
+ all css changes in mystyles.css

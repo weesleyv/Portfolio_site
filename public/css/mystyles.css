@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+#my-info {
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#45484d+0,000000+100;Black+3D+%231 */
+	background: rgb(69,72,77); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+
+}
+
+.off-canvas-content {
+	height: 100vh;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f6f8f9+0,e5ebee+50,d7dee3+100 */
+	background: rgb(246,248,249); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(246,248,249,1) 0%, rgba(229,235,238,1) 50%, rgba(215,222,227,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#d7dee3',GradientType=0 ); /* IE6-9 */
+}
+
+.portfolio-intro h1,
+.centered {
+	text-align: center;
+}
+
+.logo {
+	border-color: #000000;
+	box-shadow: 0 0 30px 10px;
+	color: #000000;
+}
+
+.scale {
+	transition: transform 0.5s;
+}
+
+.scale:hover {
+	transform: scale(1.05);
+}
