@@ -1,5 +1,6 @@
 const express = require('express');
 const routs = require('./routs/index.js');
+const PORT = process.env.PORT || 3000;
 
 //new express app
 const app = express();
@@ -28,7 +29,7 @@ app.use((err, req, res, next) => {
 	res.render('error');
 })
 
-app.listen(3000, () => {
+app.listen(PORT, () => {
 	console.log('listening on port 3000')
 } )
 
