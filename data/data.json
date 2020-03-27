@@ -44,6 +44,15 @@
 			"live_link": "https://weesleyv.github.io/public_api_request/",
 			"github_link": "https://github.com/weesleyv/public_api_request",
 			"image_urls": ["/static/images/publicApi1.png"]
+		},
+		{
+			"id": 5,
+			"name": "Rest api and React app",
+			"description": "REST API that lets users create, list, update, and delete items from database. And allow users to view a list of courses and the detail for a specific course, sign up to create an account or sign in with an existing account, and create, update, or delete courses.",
+			"technologies": ["SQL", "Express", "React"],
+			"live_link": "",
+			"github_link": "https://github.com/weesleyv/Full-Stack-App-with-React-and-a-REST-API",
+			"image_urls": ["/static/images/fullstack1.png", "/static/images/fullstack2.png", "/static/images/fullstack3.png"]
 		}
 	]
 }
