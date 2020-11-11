@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 
+html {
+	margin: 0px;
+	height: 100%;
+	width: 100%;
+ }
+ 
+ body {
+	margin: 0px;
+	min-height: 100%;
+	width: 100%;
+	background-color: rgba(215,222,227,1);
+ }
+
 #my-info {
 	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#45484d+0,000000+100;Black+3D+%231 */
 	background: rgb(69,72,77); /* Old browsers */
@@ -11,7 +24,6 @@
 }
 
 .off-canvas-content {
-	height: 100vh;
 	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f6f8f9+0,e5ebee+50,d7dee3+100 */
 	background: rgb(246,248,249); /* Old browsers */
 	background: -moz-linear-gradient(top,  rgba(246,248,249,1) 0%, rgba(229,235,238,1) 50%, rgba(215,222,227,1) 100%); /* FF3.6-15 */

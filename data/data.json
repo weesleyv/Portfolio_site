@@ -1,58 +1,85 @@
 {
-	"projects": [
-		{
-			"id": 0,
-			"name": "React Gallery App",
-			"description": "This app allows you to view a gallery of flickr images by entering a keyword in the search box, or by selecting one of the default navlinks.",
-			"technologies": ["React", "CSS", "Javascript"],
-			"live_link": "https://weesleyv.github.io/React-Gallery-App/",
-			"github_link": "https://github.com/weesleyv/React-Gallery-App",
-			"image_urls": ["/static/images/react-gallery.png"]
-		},
-		{
-			"id": 1,
-			"name": "List Pagination and Filtering",
-			"description": "Program that divide a long list into a series of pages and improve the user experience of a web page",
-			"technologies": ["HTML", "CSS", "Javascript"],
-			"live_link": "https://weesleyv.github.io/List_Pagination_and_Filtering/",
-			"github_link": "https://github.com/weesleyv/List_Pagination_and_Filtering",
-			"image_urls": ["/static/images/listpagination.png"]
-		},
-		{
-			"id": 2,
-			"name": "Interactive Form",
-			"description": "Adding customized and conditional behavior and interactivity, validating user input and providing helpful error messages when the user enters invalid information into the form fields",
-			"technologies": ["HTML", "CSS", "Javascript", "JQuery"],
-			"live_link": "https://weesleyv.github.io/Interactive-Form/",
-			"github_link": "https://github.com/weesleyv/Interactive-Form",
-			"image_urls": ["/static/images/interactiveForm.png"]
-		},
-		{
-			"id": 3,
-			"name": "OOP Game Show App",
-			"description": "Browser-based, word guessing game: 'Phrase Hunter'.",
-			"technologies": ["HTML", "CSS", "Javascript"],
-			"live_link": "https://weesleyv.github.io/OOP-Game-Show-App/",
-			"github_link": "https://github.com/weesleyv/OOP-Game-Show-App",
-			"image_urls": ["/static/images/oopGame2.png"]
-		},
-		{
-			"id": 4,
-			"name": "Public API Requests",
-			"description": "Program that create an employee directory by communicating with a third-party API ",
-			"technologies": ["HTML", "CSS", "Javascript"],
-			"live_link": "https://weesleyv.github.io/public_api_request/",
-			"github_link": "https://github.com/weesleyv/public_api_request",
-			"image_urls": ["/static/images/publicApi1.png"]
-		},
-		{
-			"id": 5,
-			"name": "Rest api and React app",
-			"description": "REST API that lets users create, list, update, and delete items from database. And allow users to view a list of courses and the detail for a specific course, sign up to create an account or sign in with an existing account, and create, update, or delete courses.",
-			"technologies": ["SQL", "Express", "React"],
-			"live_link": "https://rest-react-2020.herokuapp.com/",
-			"github_link": "https://github.com/weesleyv/Full-Stack-App-with-React-and-a-REST-API",
-			"image_urls": ["/static/images/fullstack1.png", "/static/images/fullstack2.png", "/static/images/fullstack3.png"]
-		}
-	]
+  "projects": [
+    {
+      "id": 0,
+      "name": "Facebook Clone",
+      "description": "Facebook design webapp, where you can login with your gmail account, create posts and add images",
+      "technologies": ["Firebase", "React", "SASS"],
+      "live_link": "https://facebook-clone-41c6e.web.app",
+      "github_link": "https://github.com/weesleyv/FB-Clone",
+      "image_urls": ["/static/images/facebook.png"]
+    },
+    {
+      "id": 1,
+      "name": "Amazon design Ecommerce app",
+      "description": "Amazon design webapp with admin user who can create update or delete products. Paypal payment implemented. Profile page where you can see your orders and update your information and many more",
+      "technologies": ["React", "Redux", "Express", "Mongodb"],
+      "live_link": "https://amazonec.herokuapp.com/",
+      "github_link": "https://github.com/weesleyv/ecommerce-amazon",
+      "image_urls": [
+        "/static/images/amazonec1.png",
+        "/static/images/amazonec2.png",
+        "/static/images/amazonec3.png",
+        "/static/images/amazonec4.png"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Rest api and React app",
+      "description": "REST API that lets users create, list, update, and delete items from database. And allow users to view a list of courses and the detail for a specific course, sign up to create an account or sign in with an existing account, and create, update, or delete courses.",
+      "technologies": ["SQL", "Express", "React"],
+      "live_link": "https://rest-react-2020.herokuapp.com/",
+      "github_link": "https://github.com/weesleyv/Full-Stack-App-with-React-and-a-REST-API",
+      "image_urls": [
+        "/static/images/fullstack1.png",
+        "/static/images/fullstack2.png",
+        "/static/images/fullstack3.png"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "OOP Game Show App",
+      "description": "Browser-based, word guessing game: 'Phrase Hunter'.",
+      "technologies": ["HTML", "CSS", "Javascript"],
+      "live_link": "https://weesleyv.github.io/OOP-Game-Show-App/",
+      "github_link": "https://github.com/weesleyv/OOP-Game-Show-App",
+      "image_urls": ["/static/images/oopGame2.png"]
+    },
+    {
+      "id": 4,
+      "name": "React Gallery App",
+      "description": "This app allows you to view a gallery of flickr images by entering a keyword in the search box, or by selecting one of the default navlinks.",
+      "technologies": ["React", "CSS", "Javascript"],
+      "live_link": "https://weesleyv.github.io/React-Gallery-App/",
+      "github_link": "https://github.com/weesleyv/React-Gallery-App",
+      "image_urls": ["/static/images/react-gallery.png"]
+    },
+    {
+      "id": 5,
+      "name": "Public API Requests",
+      "description": "Program that create an employee directory by communicating with a third-party API ",
+      "technologies": ["HTML", "CSS", "Javascript"],
+      "live_link": "https://weesleyv.github.io/public_api_request/",
+      "github_link": "https://github.com/weesleyv/public_api_request",
+      "image_urls": ["/static/images/publicApi1.png"]
+    },
+    {
+      "id": 6,
+      "name": "Interactive Form",
+      "description": "Adding customized and conditional behavior and interactivity, validating user input and providing helpful error messages when the user enters invalid information into the form fields",
+      "technologies": ["HTML", "CSS", "Javascript", "JQuery"],
+      "live_link": "https://weesleyv.github.io/Interactive-Form/",
+      "github_link": "https://github.com/weesleyv/Interactive-Form",
+      "image_urls": ["/static/images/interactiveForm.png"]
+    },
+    {
+      "id": 7,
+      "name": "List Pagination and Filtering",
+      "description": "Program that divide a long list into a series of pages and improve the user experience of a web page",
+      "technologies": ["HTML", "CSS", "Javascript"],
+      "live_link": "https://weesleyv.github.io/List_Pagination_and_Filtering/",
+      "github_link": "https://github.com/weesleyv/List_Pagination_and_Filtering",
+      "image_urls": ["/static/images/listpagination.png"]
+    }
+  ]
 }
